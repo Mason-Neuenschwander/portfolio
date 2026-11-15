@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 610" role="img" aria-labelledby="tt dd">
+<title id="tt">Class 8 tractor and 53-foot van trailer — technical blueprint</title>
+<desc id="dd">Original, hand-authored three-quarter view of a freight truck with dimension guides and engineering linework.</desc>
+<defs>
+<pattern id="minor" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#476D91" stroke-opacity=".13" stroke-width=".8"/></pattern>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-29)"><path d="M0 0V10" stroke="#476D91" stroke-opacity=".17" stroke-width="1"/></pattern>
+<linearGradient id="trailer" x1="0" x2="1" y1="0" y2=".1"><stop offset="0" stop-color="#193c59" stop-opacity=".66"/><stop offset="1" stop-color="#091e31" stop-opacity=".45"/></linearGradient>
+<linearGradient id="cab" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#294a63" stop-opacity=".73"/><stop offset="1" stop-color="#0a1d32" stop-opacity=".86"/></linearGradient>
+<clipPath id="trailerclip"><path d="M598 200L1103 257L1103 425L598 385Z"/></clipPath>
+<style>
+.s{stroke:#476D91;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.line{fill:none;stroke:#476D91;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.fine{fill:none;stroke:#6b92ac;stroke-width:1.25;stroke-opacity:.66;stroke-linecap:round}.glow{fill:none;stroke:#91cbd1;stroke-width:1.5;stroke-opacity:.55}.shade{fill:#0c2237}.metal{fill:url(#cab)}.micro{font:600 12px system-ui, sans-serif;letter-spacing:3px;fill:#91cbd1;opacity:.8}.guides{fill:none;stroke:#476D91;stroke-width:1.4;stroke-opacity:.66}.wheel{fill:#091b2d;stroke:#628bab;stroke-width:4}.rim{fill:#17344c;stroke:#476d91;stroke-width:2}.hub{fill:#264660;stroke:#91cbd1;stroke-opacity:.56;stroke-width:1.5}
+</style>
+</defs>
+<!-- Fine drafting grid and stage. There are deliberately no orbiting decorative elements. -->
+<path fill="url(#minor)" d="M28 60H1129V552H28Z" opacity=".6"/>
+<path class="fine" d="M55 486H1130M55 494H1130"/><path class="guides" d="M82 149H411M82 142V156M411 142V156M106 519H1103M106 509V529M1103 509V529"/>
+<path class="fine" d="M115 132L145 132M130 117V147M1080 139H1110M1095 124V154M95 477H125M110 462V492"/>
+<!-- Cargo trailer, three-quarter perspective, carefully graded long side -->
+<g>
+<path d="M589 194L1105 251L1114 258L1114 426L599 394L589 383Z" fill="url(#trailer)" stroke="#476D91" stroke-width="3" stroke-linejoin="round"/>
+<path d="M589 194L1105 251L1114 258L601 205Z" fill="#345978" fill-opacity=".38" stroke="#476D91" stroke-width="2"/>
+<path class="line" d="M601 212L1100 263L1100 414L601 380Z"/>
+<path class="fine" d="M612 219L1088 268M612 372L1088 406M613 231L1088 280M613 240L1088 289M613 249L1088 298M613 258L1088 307M613 267L1088 316M613 276L1088 325M613 285L1088 334M613 294L1088 343M613 303L1088 352M613 312L1088 361M613 321L1088 370M613 330L1088 379M613 339L1088 388" opacity=".48"/>
+<path class="fine" d="M647 220V381M696 225V385M745 230V388M794 235V391M843 240V394M892 245V397M941 250V401M990 255V405M1039 260V410"/>
+<path class="glow" d="M603 206L1100 258M600 380L1101 416"/>
+<path d="M603 385L1110 428L1108 440L599 402Z" fill="#19374d" stroke="#476D91" stroke-width="2"/>
+<path class="fine" d="M602 395L1104 435"/>
+<!-- Nose of trailer viewed end-on -->
+<path d="M589 194L603 209L603 384L589 380Z" fill="#14314c" stroke="#476D91" stroke-width="2"/>
+</g>
+<!-- Frame components and wheels of trailer -->
+<path class="line" d="M624 416V443L712 450M734 428V454L916 468M936 449L1028 459"/>
+<path class="fine" d="M613 417L912 444M646 419V441M674 424V444M707 429V449"/>
+<path class="line" d="M700 414V457M709 453H746"/>
+<!-- Tractor sleeper cab and panoramic aerodynamic crown -->
+<g>
+<path d="M373 204Q395 179 439 183L540 187Q582 192 595 231L598 386L574 438L454 455L347 441L337 270Z" class="s metal"/>
+<path d="M365 214Q382 184 433 187L542 194Q576 199 590 233" class="glow"/>
+<path d="M378 206Q407 201 431 205L457 220L454 329L342 316L348 264Z" fill="#0a1e32" stroke="#476D91" stroke-width="2.5"/>
+<path class="fine" d="M385 215L431 223L429 307L365 302Z"/>
+<path d="M464 220L540 229Q551 231 556 241V321H463Z" class="shade s"/>
+<path class="glow" d="M476 231L536 240L545 250V311"/>
+<path class="fine" d="M463 327H557M460 343L581 344M460 353L582 355M479 389L576 394"/>
+<path d="M471 330V419L551 428L557 332" class="line"/>
+<path d="M529 365H547M507 334V400" class="fine"/>
+<path d="M583 298L600 294V319L583 323Z" class="s shade"/>
+<path d="M557 408H591M576 437L591 388M580 444L595 399" class="fine"/>
+<path class="s metal" d="M589 210V177Q590 171 596 171H604V212"/>
+<path class="fine" d="M594 186H603M594 197H603"/>
+<!-- Rear aerodynamic fairing + steps -->
+<path class="line" d="M565 397L584 398L586 435L556 445M489 441H567M490 449H565"/>
+</g>
+<!-- Realistic sloping long-nose hood and front: high cab front to broad grille -->
+<g>
+<path d="M187 337Q203 311 240 305L347 283L379 311L377 417L322 439L172 429L166 382Z" class="metal s"/>
+<path d="M189 342L355 310L377 311M194 347L347 320" class="glow"/>
+<path d="M193 361Q193 352 203 348L281 332L288 416L190 417Z" fill="#091d31" stroke="#476D91" stroke-width="2.8"/>
+<path class="line" d="M206 352L275 337V408L204 407Z"/>
+<path class="fine" d="M212 356L270 344M212 364L270 353M212 373L270 362M212 382L270 371M212 391L270 380M212 400L270 389"/>
+<path class="line" d="M292 335L349 321L350 371L296 387Z"/>
+<path class="glow" d="M299 345L343 334"/>
+<path class="fine" d="M304 352L339 344M304 360L339 352"/>
+<path d="M166 414L173 435L206 443L373 453L375 435L190 418Z" class="s shade"/>
+<path class="fine" d="M179 433L370 445"/>
+<path d="M352 379L386 378L400 437L386 443L352 437Z" class="s shade"/>
+<path class="line" d="M343 398L369 393M361 318L373 306M334 290L358 287"/>
+<!-- mirrors and joints -->
+<path class="line" d="M339 280L322 275L322 314L339 318M341 304L329 305"/>
+<rect x="315" y="272" width="12" height="34" rx="2" fill="#153149" stroke="#476D91" stroke-width="2.5"/>
+</g>
+<!-- Real undercarriage, wheel wells, realistic axle spacing -->
+<path class="s shade" d="M345 430Q359 396 398 396Q438 397 450 431L485 436Q501 406 540 408Q580 414 584 449L619 457L618 468L379 463L351 452Z"/>
+<path class="line" d="M340 461L659 465M560 449L667 452M659 451L698 455M392 420H443"/>
+<path class="fine" d="M580 448L624 452M591 454L629 459"/>
+<!-- Wheels – five axles and graded visible rim details -->
+<g>
+<g transform="translate(403 451)"><circle r="45" class="wheel"/><circle r="35" class="rim"/><circle r="24" class="hub"/><circle r="11" fill="#071c31" stroke="#6388a7" stroke-width="2"/><path class="fine" d="M-20 0H20M0-20V20M-14-14L14 14M-14 14L14-14"/></g>
+<g transform="translate(539 459)"><circle r="37" class="wheel"/><circle r="28" class="rim"/><circle r="19" class="hub"/><circle r="8" fill="#071c31" stroke="#6388a7" stroke-width="2"/><path class="fine" d="M-15 0H15M0-15V15"/></g>
+<g transform="translate(602 463)"><circle r="34" class="wheel"/><circle r="26" class="rim"/><circle r="17" class="hub"/><circle r="7" fill="#071c31" stroke="#6388a7" stroke-width="2"/></g>
+<g transform="translate(963 464)"><circle r="31" class="wheel"/><circle r="24" class="rim"/><circle r="15" class="hub"/><circle r="7" fill="#071c31" stroke="#6388a7" stroke-width="2"/></g>
+<g transform="translate(1036 469)"><circle r="29" class="wheel"/><circle r="22" class="rim"/><circle r="14" class="hub"/><circle r="6" fill="#071c31" stroke="#6388a7" stroke-width="2"/></g>
+</g>
+<!-- small dimensional details, no distracting charts -->
+<path class="guides" d="M599 548V560M1098 548V560M599 554H1098M599 554l10-6M599 554l10 6M1098 554l-10-6M1098 554l-10 6"/>
+<text x="846" y="576" class="micro" text-anchor="middle">53 FT  /  DRY VAN</text>
+<text x="102" y="541" class="micro">TECHNICAL STUDY / CLASS 8</text>
+</svg>
