@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" role="img" aria-labelledby="drawingTitle drawingDescription">
+<title id="drawingTitle">Freight transport technical illustration</title>
+<desc id="drawingDescription">Steel-blue vector engineering study of a conventional long-hood sleeper semi tractor towing a dry van trailer, with correctly spaced steering, drive and trailer axles.</desc>
+<defs>
+<style>
+.outline{fill:none;stroke:#476D91;stroke-width:2.8;stroke-linecap:round;stroke-linejoin:round}
+.structure{fill:none;stroke:#476D91;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.detail{fill:none;stroke:#476D91;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;opacity:.70}
+.ghost{fill:none;stroke:#476D91;stroke-width:.75;stroke-linecap:round;opacity:.36}
+.shell{fill:#102940;stroke:#476D91;stroke-width:2.6;stroke-linejoin:round}
+.glass{fill:#102237;stroke:#476D91;stroke-width:2}
+.dim{fill:none;stroke:#476D91;stroke-width:1.1;opacity:.76}
+.word{font:11px Arial,Helvetica,sans-serif;fill:#476D91;letter-spacing:2.7px}
+.micro{font:9px Arial,Helvetica,sans-serif;fill:#476D91;letter-spacing:2px;opacity:.85}
+</style>
+<pattern id="tread" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 6L6 0" stroke="#476D91" stroke-width=".7" opacity=".4"/></pattern>
+</defs>
+<!-- A measured, recognizable North American conventional sleeper tractor with five axles total. -->
+<g class="ghost">
+ <path d="M44 374H924M44 135H912M76 112V398M422 110V405M893 113V409"/>
+ <path d="M54 143H900M55 372H900" stroke-dasharray="3 10"/>
+ <path d="M57 145v-10m0 235v10M895 145v-10m0 235v10"/>
+</g>
+<!-- 53-ft dry van: straight extrusion, side posts, rear posts, under-ride bars. -->
+<g>
+  <path class="shell" d="M408 163L887 163L887 335L408 335Z"/>
+  <path class="outline" d="M404 158H892V341H405M408 166H887"/>
+  <path class="structure" d="M413 178H881V318H413Z"/>
+  <path class="detail" d="M415 190H881M415 304H881M886 166V337M875 181V315"/>
+  <path class="ghost" d="M437 179V316M471 179V316M505 179V316M539 179V316M573 179V316M607 179V316M641 179V316M675 179V316M709 179V316M743 179V316M777 179V316M811 179V316M845 179V316"/>
+  <path class="detail" d="M416 194H878M416 200H878M416 206H878M416 296H878M416 302H878"/>
+  <path class="outline" d="M423 342H887M447 344V360H687M697 341H894V364H909"/>
+  <path class="structure" d="M410 347H430M435 351H695M892 345h13v18h-20"/>
+  <path class="detail" d="M421 318H878M417 324H882M462 344V365M704 339V358M826 339V358"/>
+  <path class="ghost" d="M478 344V357M563 344V357M640 344V357"/>
+  <path class="outline" d="M390 327H420M395 337H427"/>
+  <path class="structure" d="M413 347v16h35"/>
+</g>
+<!-- Tractor: steel chassis with recognizable tandem drives, rear suspension and fifth wheel -->
+<g>
+  <path class="structure" d="M260 345H452M269 354H462M368 330h86M408 321l30 3M402 336l-9 13"/>
+  <path class="detail" d="M405 357l12-12 13 12M396 361H453M450 345l12 9"/>
+  <path class="outline" d="M70 328H146M247 330H275M306 329H456L468 349H460M71 350L143 350"/>
+</g>
+<!-- Proper single-piece conventional cab and aerodynamic sleeper roof -->
+<g>
+ <path class="shell" d="M251 241L274 163Q281 133 310 130L359 129Q390 131 412 161L417 327L276 327L258 298Z"/>
+ <path class="outline" d="M274 163Q285 143 305 143H358Q389 145 398 166L402 320"/>
+ <!-- Windshield side edge and rear sleeper vertical separation -->
+ <path class="glass" d="M281 171Q288 157 309 157H340L342 215L260 218Z"/>
+ <path class="detail" d="M290 165Q306 161 330 164M265 210H335"/>
+ <path class="glass" d="M363 166H393Q399 167 400 179V209H362Z"/>
+ <path class="structure" d="M351 146V316M352 219H402M260 225L346 223L348 315L273 315Z"/>
+ <!-- Door, handle, air vent and entry steps -->
+ <path class="detail" d="M285 232L338 232M318 247h15M282 303H343M366 223V310M378 237H398M376 251H399"/>
+ <path class="structure" d="M297 324V348H339M302 336H339M305 342H339"/>
+ <path class="detail" d="M305 329v16M312 329v16M321 329v16"/>
+ <!-- Mirror assembly on door edge, cab lines -->
+ <path class="structure" d="M277 190L263 187L260 207L276 210"/>
+ <rect x="252" y="186" width="11" height="22" rx="2" class="shell"/>
+ <path class="detail" d="M255 190h5M255 204h5"/>
+ <!-- Exhaust and intake behind cab -->
+ <path class="outline" d="M410 178V126H417V178M412 125V115"/>
+ <path class="detail" d="M407 159h10M408 170h10"/>
+ <!-- Fuel tank and frame -->
+ <path class="structure" d="M292 338H335V355H292Q286 350 292 338Z"/>
+ <path class="detail" d="M297 342H331M296 351H333"/>
+</g>
+<!-- Long aerodynamic hood and the recognizable front grille/headlamps -->
+<g>
+  <path class="shell" d="M79 270Q81 257 95 251L242 222L258 244L260 318L82 323Z"/>
+  <path class="outline" d="M90 257L243 231M83 318L258 311M251 239L254 308"/>
+  <path class="structure" d="M95 265L226 242M106 258L224 234"/>
+  <!-- Front hood shutline and simple vertical grill -->
+  <path class="outline" d="M79 269L108 262V305L81 314Z"/>
+  <path class="detail" d="M85 276L102 272M85 283L102 279M85 291L102 287M85 299L102 295"/>
+  <!-- Shape follows hood angle, no oversized cartoon-like headlamps -->
+  <path class="structure" d="M118 267L148 261L151 272L118 278Z"/>
+  <path class="detail" d="M124 270L145 266M120 276L148 270"/>
+  <!-- Hood side heat vent / louver, seam and fender -->
+  <path class="structure" d="M212 240L228 238V270L211 273Z"/>
+  <path class="detail" d="M215 247L224 246M215 253L224 252M215 259L224 258M215 265L224 264"/>
+  <path class="ghost" d="M150 254L207 244M153 258L207 248M156 262L207 252"/>
+  <path class="outline" d="M76 325l-6 7v18h82M237 349H278"/>
+  <path class="structure" d="M69 335H90M70 344H132M77 321l-6 -8"/>
+</g>
+<!-- Wheel housings and genuine five-axle configuration: steer / drive / drive / trailer / trailer -->
+<g>
+  <path class="shell" d="M138 344Q142 305 186 305Q225 305 233 344H250L258 358H111L119 345Z"/>
+  <path class="outline" d="M142 345Q147 312 186 312Q219 312 227 346"/>
+  <path class="outline" d="M285 344Q288 315 322 313Q342 311 354 326Q365 315 386 316Q416 317 421 348"/>
+  <path class="detail" d="M277 346h10M416 343h25M282 360h166"/>
+  <path class="outline" d="M706 346Q712 335 732 333H828Q847 333 852 345"/>
+  <path class="detail" d="M691 349H863M702 359H713M851 357H867"/>
+</g>
+<!-- Tires drawn in groups using the exact steel-blue technical linework. -->
+<g><circle cx="186" cy="350" r="35" fill="#0B2238" stroke="#476D91" stroke-width="3"/><circle cx="186" cy="350" r="30" class="structure"/><circle cx="186" cy="350" r="19.25" class="structure"/><circle cx="186" cy="350" r="8.05" class="detail"/><circle cx="200.70" cy="350.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="196.39" cy="360.39" r="1.5" fill="#476D91" opacity=".65"/><circle cx="186.00" cy="364.70" r="1.5" fill="#476D91" opacity=".65"/><circle cx="175.61" cy="360.39" r="1.5" fill="#476D91" opacity=".65"/><circle cx="171.30" cy="350.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="175.61" cy="339.61" r="1.5" fill="#476D91" opacity=".65"/><circle cx="186.00" cy="335.30" r="1.5" fill="#476D91" opacity=".65"/><circle cx="196.39" cy="339.61" r="1.5" fill="#476D91" opacity=".65"/></g>
+<g><circle cx="323" cy="354" r="30" fill="#0B2238" stroke="#476D91" stroke-width="3"/><circle cx="323" cy="354" r="25" class="structure"/><circle cx="323" cy="354" r="16.50" class="structure"/><circle cx="323" cy="354" r="6.90" class="detail"/><circle cx="335.60" cy="354.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="331.91" cy="362.91" r="1.5" fill="#476D91" opacity=".65"/><circle cx="323.00" cy="366.60" r="1.5" fill="#476D91" opacity=".65"/><circle cx="314.09" cy="362.91" r="1.5" fill="#476D91" opacity=".65"/><circle cx="310.40" cy="354.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="314.09" cy="345.09" r="1.5" fill="#476D91" opacity=".65"/><circle cx="323.00" cy="341.40" r="1.5" fill="#476D91" opacity=".65"/><circle cx="331.91" cy="345.09" r="1.5" fill="#476D91" opacity=".65"/></g>
+<g><circle cx="389" cy="354" r="30" fill="#0B2238" stroke="#476D91" stroke-width="3"/><circle cx="389" cy="354" r="25" class="structure"/><circle cx="389" cy="354" r="16.50" class="structure"/><circle cx="389" cy="354" r="6.90" class="detail"/><circle cx="401.60" cy="354.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="397.91" cy="362.91" r="1.5" fill="#476D91" opacity=".65"/><circle cx="389.00" cy="366.60" r="1.5" fill="#476D91" opacity=".65"/><circle cx="380.09" cy="362.91" r="1.5" fill="#476D91" opacity=".65"/><circle cx="376.40" cy="354.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="380.09" cy="345.09" r="1.5" fill="#476D91" opacity=".65"/><circle cx="389.00" cy="341.40" r="1.5" fill="#476D91" opacity=".65"/><circle cx="397.91" cy="345.09" r="1.5" fill="#476D91" opacity=".65"/></g>
+<g><circle cx="745" cy="357" r="29" fill="#0B2238" stroke="#476D91" stroke-width="3"/><circle cx="745" cy="357" r="24" class="structure"/><circle cx="745" cy="357" r="15.95" class="structure"/><circle cx="745" cy="357" r="6.67" class="detail"/><circle cx="757.18" cy="357.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="753.61" cy="365.61" r="1.5" fill="#476D91" opacity=".65"/><circle cx="745.00" cy="369.18" r="1.5" fill="#476D91" opacity=".65"/><circle cx="736.39" cy="365.61" r="1.5" fill="#476D91" opacity=".65"/><circle cx="732.82" cy="357.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="736.39" cy="348.39" r="1.5" fill="#476D91" opacity=".65"/><circle cx="745.00" cy="344.82" r="1.5" fill="#476D91" opacity=".65"/><circle cx="753.61" cy="348.39" r="1.5" fill="#476D91" opacity=".65"/></g>
+<g><circle cx="814" cy="357" r="29" fill="#0B2238" stroke="#476D91" stroke-width="3"/><circle cx="814" cy="357" r="24" class="structure"/><circle cx="814" cy="357" r="15.95" class="structure"/><circle cx="814" cy="357" r="6.67" class="detail"/><circle cx="826.18" cy="357.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="822.61" cy="365.61" r="1.5" fill="#476D91" opacity=".65"/><circle cx="814.00" cy="369.18" r="1.5" fill="#476D91" opacity=".65"/><circle cx="805.39" cy="365.61" r="1.5" fill="#476D91" opacity=".65"/><circle cx="801.82" cy="357.00" r="1.5" fill="#476D91" opacity=".65"/><circle cx="805.39" cy="348.39" r="1.5" fill="#476D91" opacity=".65"/><circle cx="814.00" cy="344.82" r="1.5" fill="#476D91" opacity=".65"/><circle cx="822.61" cy="348.39" r="1.5" fill="#476D91" opacity=".65"/></g>
+
+<!-- A few restrained instrument / dimensional references -->
+<g class="dim">
+ <path d="M420 405V423M885 405V423M420 415H885M420 415l9 -5m-9 5l9 5M885 415l-9 -5m9 5l-9 5"/>
+ <path d="M105 154H385M105 149V159M385 149V159" opacity=".4"/>
+</g>
+<text class="word" x="652" y="441" text-anchor="middle">DRY VAN / 53 FT</text>
+<text class="micro" x="878" y="141" text-anchor="end">SIDE ELEVATION / 01</text>
+<text class="micro" x="92" y="408">CLASS 8 / SLEEPER TRACTOR</text>
+</svg>
